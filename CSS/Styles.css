@@ -6,8 +6,7 @@
     --color-primary: #4d41c0;
     --white: #ffffff;
     --text-gray: #4a4a4a;
-
-
+    --text-light-gray: #aaa;
 }
 
 *{
@@ -123,8 +122,23 @@ a, a:hover {
      border-radius: 0 0 8px 8px;
  }
 
+ .dsmovie-form-description h3 {
+     font-size: 13px;
+     font-weight: 700;
+     margin-bottom: 20px;
+ }
+
 .dsmovie-form {
     width: 100%;
+}
+
+.dsmovie-form-group {
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group {
+    color: var(--text-light-gray);
+    font-size: 12px;
 }
 
 .dsmovie-form-btn-container {
